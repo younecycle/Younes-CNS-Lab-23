@@ -44,5 +44,5 @@ I found a file with 100 worst passwords on GitHub and tried it out to see what o
 
 I ended up finding a powershell script online that utilized putty on windows to bruteforce passwords from a list of passwords in a text file. It found the password I reset to, "sunshine".
 
-![Using the downloaded powershell script found, found the password using a different password file found on GitHub!](SuccessfulPasswordCheck.png)
+![Using the downloaded powershell script found, found the password using a different password file found on GitHub!](SuccessfulPasswordCrack.png)
 
