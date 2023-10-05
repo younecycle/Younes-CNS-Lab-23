@@ -40,9 +40,9 @@ This part required some thought. While the RedHat Academy had us doing ssh-copy-
 
 I found a file with 100 worst passwords on GitHub and tried it out to see what other bad passwords are out there. There was a lot of overlap on what is distinguished as a bad password.
 
-![Changing my password to "sunshine".](PasswdChange.PNG)
+![Changing my password to "sunshine".](PasswdChange.png)
 
 I ended up finding a powershell script online that utilized putty on windows to bruteforce passwords from a list of passwords in a text file. It found the password I reset to, "sunshine".
 
-![Using the downloaded powershell script found, found the password using a different password file found on GitHub!](SuccessfulPasswordCheck.PNG)
+![Using the downloaded powershell script found, found the password using a different password file found on GitHub!](SuccessfulPasswordCheck.png)
 
