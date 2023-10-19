@@ -10,19 +10,19 @@ First, I completed the RedHat Academy sections 10.1-10.8. I learned how to creat
 
 Here, I got information about my login using the code:
 
-![Step #6 in Section 10.2](Q2Pic1.png)
+![Step #6 in Section 10.2](Q2Pic1.PNG)
 
 Here, I retrieved the hostname for server b in the RedHat lab after logging in as the user student on the serverb machine.
 
-![Step #12 in Section 10.2](Q2Pic2.png)
+![Step #12 in Section 10.2](Q2Pic2.PNG)
 
 The ssh-copy-id command was useful for this section to figure out how to copy over ssh keys. It works for RedHat, but not for Windows as we will see later.
 
-![Step #4 in Section 10.4](Q2Pic3.png)
+![Step #4 in Section 10.4](Q2Pic3.PNG)
 
 Another example of logging into the server machines under different users, both named operator1. 
 
-![Step #9 in Section 10.4](Q2Pic4.png)
+![Step #9 in Section 10.4](Q2Pic4.PNG)
 
 ## Keygen Placement from NUC to the Jump Box
 
@@ -44,5 +44,5 @@ I found a file with 100 worst passwords on GitHub and tried it out to see what o
 
 I ended up finding a powershell script online that utilized putty on windows to bruteforce passwords from a list of passwords in a text file. It found the password I reset to, "sunshine".
 
-![Using the downloaded powershell script found, found the password using a different password file found on GitHub!](SuccessfulPasswordCheck.png)
+![Using the downloaded powershell script found, found the password using a different password file found on GitHub!](SuccessfulPasswordCrack.png)
 
