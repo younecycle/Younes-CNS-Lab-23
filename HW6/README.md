@@ -15,3 +15,10 @@ with the previous lab CTF. During lab, it took me a long time to find out how to
 I chose to blacklist 5061, the Windows Event code for a cryptographic operation. More specficially, it generates when Microsoft Software Key Storage Provider or Microsoft Smart Card Key Storage Provider are activated in the creation or opening of a cryptographic key. A more detailed description is linked below:
 
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5061
+
+## Input.conf file
+
+We wrote the file to include the new Windows Events that were going to be blacklisted under the Security Windows Event Logs.
+
+![Location of the input file.](LocationOfInput.PNG)
+
