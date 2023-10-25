@@ -20,5 +20,5 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 
 We wrote the file to include the new Windows Events that were going to be blacklisted under the Security Windows Event Logs.
 
-![Location of the input file.](LocationOfInput.PNG)
+![Location of the input file.](LocationOfInput.png)
 
