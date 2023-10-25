@@ -3,9 +3,10 @@
 
 # Homework 2
 
-## Container 1:
+## Container 1: 
 
-
+What is the organization behind the containers? Are there any options available when
+running the container? What is unique about each one?
 
 Code:
 
