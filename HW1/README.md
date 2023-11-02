@@ -30,7 +30,9 @@ At the next part, I noticed that the script the Vagrant tutorial had included wa
 
 ![Vagrant up...with a server!](UpWithNetworking.PNG)
 
-After I got the VM up, I successfully logged into the VM using SSH in the script. 
+After I got the VM up, I successfully logged into the VM using SSH in the script.  Once I had made the server, I was able to use wget to access the HTML file I had set up for the machine.
+
+![The HW1 html file from wget!](WebserverUp.PNG)
 
 ## Tutorial 2: Configure Networking
 
@@ -39,6 +41,8 @@ In this tutorial, I included more code that was in the Vagrant file and connecte
 ![Included code](ConnectPortHost.PNG)
 
 I was then able to access 127.0.0.1:4567 from my browser, as the VM had just set up the server on my local machine.
+
+![The HW1 html file from Google Chrome!](WebserverUp.PNG)
 
 ## Vagrant Provisioner: Shell
 
@@ -49,6 +53,7 @@ The Shell provisioner is used to upload and execute a script of applicable type 
 ```
 config.vm.provision "shell", path: "bootstrap.sh"
 ```
+
 ## Question 5: Successful File Copy
 
 Here, I placed a folder SuccessfulCopy containing a SuccessfulCopy.txt in the same directory as the Vagrant file, and included the following code provisioning the file copy from the host directory to the Documents folder on the Ubuntu machine I had.
@@ -57,4 +62,4 @@ Here, I placed a folder SuccessfulCopy containing a SuccessfulCopy.txt in the sa
 config.vm.provision "file", source: "SuccessfulCopy", destination: "Documents"
 ```
 
-![Screenshot of successful folder SuccessfulCopy copied to Documents on the Ubuntu guest machine.](Q5.PNG)
+![Screenshot of successful folder SuccessfulCopy in the same directory as the with SuccessfulCopy.txt within successfully copied to Documents on the Ubuntu guest machine.](Q5.PNG)
