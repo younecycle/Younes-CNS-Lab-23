@@ -42,13 +42,13 @@ Last I set up Users and Groups to send to. I elected to send the email to myself
 
 In the end, I specified when to start the email campaign, as well as the previously set up fields. I ended up getting the email myself and I would have gotten phished!
 
-![Got something...](EmailReceieved.png)
+![Got something...](EmailReceived.png)
 
 ![I guess I'll just log in...](LandingPageAction.png)
 
 Of course I had to put in a redirect page...
 
-![Silly you.](RedirectPageWorked.png)
+![Silly you.](RedirectPageworked.png)
 
 ![Stats!](Dashboard.png)
 
